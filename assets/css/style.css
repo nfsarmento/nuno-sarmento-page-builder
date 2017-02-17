@@ -1,0 +1,500 @@
+/**
+ * Mobile admin panel
+**/
+/* line 5, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container {
+  /* Templates */
+  /* Buttons */
+}
+/* line 7, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container *, .nuno-sarmento-pb-page-admin-container *:after, .nuno-sarmento-pb-page-admin-container *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 12, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container #postdivrich {
+  display: none;
+  /* JS toggle will display this */
+}
+/* line 15, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container #nuno-sarmento-pb-page-builder {
+  display: none;
+  /* JS toggle will display this */
+  margin: 20px 0;
+}
+/* line 20, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-templates {
+  display: none;
+}
+/* line 23, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-rows-message {
+  border: 2px dashed #ccc;
+  padding: 10px 20px;
+  text-align: center;
+}
+/* line 29, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-actions {
+  margin-bottom: 30px;
+}
+/* line 32, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-actions a.nuno-sarmento-pb-add-row.button-primary.button-large {
+  margin: 10px;
+}
+/* line 38, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-bottom: 20px;
+}
+/* line 46, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .ui-sortable-placeholder {
+  border: 1px dashed #ccc;
+  visibility: visible !important;
+  background: transparent;
+}
+/* line 52, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-row-title:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 55, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-handle {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  cursor: grab;
+  width: 70px;
+  height: 50px;
+}
+/* line 63, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-order {
+  background: #efefef;
+  color: #aaa;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  height: 30px;
+  line-height: 1;
+  margin-top: 5px;
+  padding: 5px 6px;
+  text-align: center;
+  text-decoration: inherit;
+  vertical-align: top;
+  width: 30px;
+}
+/* line 82, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-row-title-text {
+  padding: 12px 10px 9px 0;
+  display: inline-block;
+}
+/* line 86, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-remove {
+  padding: 15px;
+  border-left: 1px solid #ccc;
+  float: right;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+/* line 94, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-remove:hover {
+  background: red;
+  color: #fff;
+}
+/* line 100, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-row-fields {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+/* line 104, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-row-fields:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 112, ../sass/admin-page-builder/_mq-admin-mobile.scss */
+.nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row .nuno-sarmento-pb-row-fields textarea {
+  width: 100%;
+  height: 100px;
+}
+
+/**
+ * Mobile Front End Columns
+**/
+/* Row */
+/* line 7, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-row {
+  line-height: 1.5em;
+}
+
+/* line 11, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-row {
+  border: none;
+}
+/* line 15, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-row:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 27, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-1 .row-content {
+  width: 100%;
+  padding: 20px;
+}
+
+/* line 36, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-2 .rnuno-sarmento-pb-col-2-left {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+/* line 41, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-2 .nuno-sarmento-pb-col-2-right {
+  width: 100%;
+  float: right;
+  padding: 20px;
+}
+
+/* line 51, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-3 .row-content-1,
+.nuno-sarmento-pb-col-3 .row-content-2,
+.nuno-sarmento-pb-col-3 .row-content-3 {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+/* line 63, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-4 .row-content-1,
+.nuno-sarmento-pb-col-4 .row-content-2,
+.nuno-sarmento-pb-col-4 .row-content-3,
+.nuno-sarmento-pb-col-4 .row-content-4 {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+/* line 74, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-5 {
+  background: none repeat scroll 0 0 #F7F7F7;
+  margin: 0 0 25px;
+  padding: 20px;
+  width: 100%;
+}
+/* line 81, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-5 .box__callout_right {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* line 89, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-5 .box__callout_left {
+  width: 100%;
+  text-align: center;
+  float: left;
+  position: relative;
+  padding: 20px;
+}
+/* line 96, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-5 .box__callout_left a.nuno-sarmento-pb-call-button {
+  background-color: #ED8B16;
+  background-image: -moz-linear-gradient(center top, #EF962B 0%, #ED8B16 100%);
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(254, 181, 94, 0.5) inset;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 15px 30px;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(222, 122, 0, 0.8);
+  margin: 15px;
+  text-decoration: none;
+}
+/* line 111, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-5 .box__callout_left a.nuno-sarmento-pb-call-button:hover {
+  background-image: -moz-linear-gradient(center top, #F0A142 0%, #ED8B16 100%);
+  box-shadow: 0 1px 0 #FEB55E inset, 0 2px 0 rgba(254, 181, 94, 0.8) inset;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 #DE7A00;
+}
+/* line 118, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-5 .box__callout_left a.nuno-sarmento-pb-call-button:active {
+  background-color: #ED8B16;
+  background-image: -moz-linear-gradient(center top, #EF962B 0%, #ED8B16 100%);
+  box-shadow: 0 1px 0 rgba(254, 181, 94, 0.5) inset;
+}
+/* line 126, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-5 .box__callout_left a.row-content-1.nuno-sarmento-pb-call-button {
+  float: none;
+}
+
+/* line 134, ../sass/front-page-builder/_mq-pb-mobile.scss */
+.nuno-sarmento-pb-col-2-3,
+.nuno-sarmento-pb-col-1-3 {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  /**
+   * Desktop admin panel
+  **/
+  /* line 6, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  /* line 14, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row-fields {
+    width: 100%;
+  }
+  /* line 18, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row-fields {
+    width: 100%;
+  }
+  /* line 21, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row-fields .nuno-sarmento-pb-col-2-left {
+    width: 49%;
+    float: left;
+  }
+  /* line 25, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row-fields .nuno-sarmento-pb-col-2-right {
+    width: 49%;
+    float: right;
+  }
+  /* line 32, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row-fields {
+    width: 100%;
+  }
+  /* line 35, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row-fields .nuno-sarmento-pb-col-3 {
+    width: 32%;
+    margin: 5px;
+    float: left;
+  }
+  /* line 43, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-row-fields .nuno-sarmento-pb-col-4 {
+    width: 100%;
+    float: left;
+  }
+  /* line 49, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-col-2-3 {
+    width: 66.66%;
+    float: left;
+    padding: 10px;
+  }
+  /* line 55, ../sass/admin-page-builder/_mq-admin-desktop.scss */
+  .nuno-sarmento-pb-page-admin-container .nuno-sarmento-pb-col-1-3 {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+  }
+
+  /**
+   * Desktop Front End Columns
+  **/
+  /* line 7, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-1 .row-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* line 15, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-2 .nuno-sarmento-pb-col-2-left {
+    width: 48%;
+    float: left;
+    padding: 20px;
+  }
+  /* line 22, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-2 .nuno-sarmento-pb-col-2-right {
+    width: 48%;
+    float: left;
+    padding: 20px;
+  }
+
+  /* line 32, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-3 .row-content-1,
+  .nuno-sarmento-pb-col-3 .row-content-2,
+  .nuno-sarmento-pb-col-3 .row-content-3 {
+    width: 32%;
+    float: left;
+    padding: 20px;
+  }
+
+  /* line 42, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-4 .row-content-1,
+  .nuno-sarmento-pb-col-4 .row-content-2,
+  .nuno-sarmento-pb-col-4 .row-content-3,
+  .nuno-sarmento-pb-col-4 .row-content-4 {
+    width: 24%;
+    float: left;
+    padding: 20px;
+  }
+
+  /* line 54, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-5 .box__callout_right {
+    font-size: 25px;
+    font-weight: bold;
+    width: 69%;
+    float: right;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  /* line 64, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-5 .box__callout_left {
+    width: 29%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  /* line 71, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-5 .box__callout_left a.row-content-1.nuno-sarmento-pb-call-button {
+    float: left;
+  }
+
+  /* line 79, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-2-3 {
+    width: 66.66%;
+    padding: 10px;
+  }
+
+  /* line 84, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-col-1-3 {
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  /* line 89, ../sass/front-page-builder/_mq-pb-desktop.scss */
+  .nuno-sarmento-pb-row:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+@media print {
+  /* line 5, ../sass/_print.scss */
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* line 12, ../sass/_print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 18, ../sass/_print.scss */
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 23, ../sass/_print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 29, ../sass/_print.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 33, ../sass/_print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 38, ../sass/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* line 42, ../sass/_print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 49, ../sass/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* line 56, ../sass/_print.scss */
+  select {
+    background: #fff !important;
+  }
+
+  /* line 61, ../sass/_print.scss */
+  .navbar {
+    display: none;
+  }
+
+  /* line 66, ../sass/_print.scss */
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+
+  /* line 74, ../sass/_print.scss */
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+
+  /* line 79, ../sass/_print.scss */
+  .label {
+    border: 1px solid #000;
+  }
+
+  /* line 83, ../sass/_print.scss */
+  .table {
+    border-collapse: collapse !important;
+  }
+
+  /* line 88, ../sass/_print.scss */
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+
+  /* line 94, ../sass/_print.scss */
+  header,
+  .content-info {
+    display: none;
+  }
+}

@@ -1,0 +1,120 @@
+/**
+ * Mobile admin panel
+**/
+
+.nuno-sarmento-pb-page-admin-container{
+
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #postdivrich{
+  	display: none; /* JS toggle will display this */
+  }
+  #nuno-sarmento-pb-page-builder{
+  	display: none; /* JS toggle will display this */
+  	margin: 20px 0;
+  }
+  /* Templates */
+  .nuno-sarmento-pb-templates{
+  	display: none;
+  }
+  .nuno-sarmento-pb-rows-message{
+  	border: 2px dashed #ccc;
+  	padding: 10px 20px;
+  	text-align: center;
+  }
+  /* Buttons */
+  .nuno-sarmento-pb-actions{
+  	margin-bottom: 30px;
+
+    a.nuno-sarmento-pb-add-row.button-primary.button-large {
+      margin: 10px;
+    }
+  }
+
+
+  .nuno-sarmento-pb-row{
+
+    	font-size: 16px;
+    	border: 1px solid #ccc;
+    	background: #fff;
+    	margin-bottom: 20px;
+
+
+      .ui-sortable-placeholder{
+        border: 1px dashed #ccc;
+        visibility: visible !important;
+        background: transparent;
+      }
+
+      .nuno-sarmento-pb-row-title:after{
+      	content:".";display:block;height:0;clear:both;visibility:hidden;
+      }
+      .nuno-sarmento-pb-handle{
+        padding: 10px;
+        border-right: 1px solid #ccc;
+        cursor: grab;
+        width: 70px;
+        height: 50px;
+      }
+
+      .nuno-sarmento-pb-order{
+      	background: #efefef;
+      	color: #aaa;
+      	border: 1px solid #ccc;
+      	border-radius: 50%;
+      	display: inline-block;
+      	font-size: 18px;
+      	font-style: normal;
+      	font-weight: normal;
+      	height: 30px;
+      	line-height: 1;
+      	margin-top: 5px;
+      	padding: 5px 6px;
+      	text-align: center;
+      	text-decoration: inherit;
+      	vertical-align: top;
+      	width: 30px;
+      }
+
+      .nuno-sarmento-pb-row-title-text{
+      	padding: 12px 10px 9px 0;
+      	display: inline-block;
+      }
+      .nuno-sarmento-pb-remove{
+        padding: 15px;
+        border-left: 1px solid #ccc;
+        float: right;
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+
+        &:hover{
+        	background: red;
+        	color: #fff;
+        }
+      }
+
+      .nuno-sarmento-pb-row-fields{
+      	border-top: 1px solid #ccc;
+      	padding: 10px;
+
+        &:after{
+        	content:".";
+          display:block;
+          height:0;
+          clear:both;
+          visibility:hidden;
+        }
+
+        textarea{
+        	width: 100%;
+        	height: 100px;
+        }
+      }
+  }
+
+
+}
