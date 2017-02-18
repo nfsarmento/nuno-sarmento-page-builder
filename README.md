@@ -23,16 +23,16 @@ At this stage I haven't implemented every Page Builder feature, but if there is 
 
 **Current features**
 
-* Admin Option Panel.
-* Fully responsive.
-* 1 Columns
-* 2 Columns
-* 3 Columns
-* 4 Columns
-* Two thirds / One third
-* One third / Two thirds
-* Call out box
-* Admin panel
+* Admin Option Panel. <br />
+* Fully responsive. <br />
+* 1 Columns <br />
+* 2 Columns <br />
+* 3 Columns <br />
+* 4 Columns <br />
+* Two thirds / One third <br />
+* One third / Two thirds <br />
+* Call out box <br />
+* Admin panel <br />
 
 
 
@@ -48,9 +48,9 @@ https://twitter.com/Nuno_M_Sarmento.
 
 **Installation**
 
-1. Upload the plugin files to the `/wp-content/plugins/Nuno-Sarmento-page-builder` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Use the Settings->Plugin Name screen to configure the plugin.
+1. Upload the plugin files to the `/wp-content/plugins/Nuno-Sarmento-page-builder` directory, or install the plugin through the WordPress plugins screen directly. <br />
+2. Activate the plugin through the 'Plugins' screen in WordPress. <br />
+3. Use the Settings->Plugin Name screen to configure the plugin. <br />
 
 
 
